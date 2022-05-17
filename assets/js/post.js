@@ -14,23 +14,23 @@ const id = getParam('id');
 switch (id) {
     case '1':
         $('#picture').attr('src', 'assets/img/1.png');
-        $('#caption').html(`<b>UpSpec_official</b>&nbsp;This service is temporarily borrowing resources (CPU, RAM) from another user's computer that is not used at that time so that they can be used as a resource for your computer. <br>You have to pay the cost based on performance level and usage time. Sharer who provides resources can earn a profit.<br><a>#sharing_performance #grid_computing #free_at_first</a>`)
+        $('#caption').html(`<b>UpSpec_official</b>&nbsp;This service is temporarily borrowing resources (CPU, RAM) from another user's computer that is not used at that time so that they can be used as a resource for your computer. <br>You have to pay the cost based on performance level and usage time. Sharer who provides resources can earn a profit.<br><a>#sharing_performance #grid_computing #first_use_discount</a>`)
         break;
     case '2':
         $('#picture').attr('src', 'assets/img/2.png');
         $('#caption').html(`<b>UpSpec_official</b>&nbsp;This service is temporarily borrowing resources (CPU, RAM) from another user's computer that is not used at that time so that they can be used as a resource for your computer.
 
-        <br>The algorithm matches the unused PC has the performance you want and sharing will be started on approval.<br><a>#sharing_performance #grid_computing #free_at_first</a>`)
+        <br>The algorithm matches the unused PC has the performance you want and sharing will be started on approval.<br><a>#sharing_performance #grid_computing #first_use_discount</a>`)
 
         break;
     case '3':
         $('#picture').attr('src', 'assets/img/3.png');
-        $('#caption').html(`<b>UpSpec_official</b>&nbsp;Suppose that you want to create a temporary pleasant working environment when you have to do heavy work (video editing, 3d graphics, etc.) but because you don't always do high-performance work, buying a high-performance PC is a burden.<Br>Without this service, you would waste your money and time buying a new computer or finding a high-performance PC.<br><a>#sharing_performance #grid_computing #free_at_first</a>`)
+        $('#caption').html(`<b>UpSpec_official</b>&nbsp;Suppose that you want to create a temporary pleasant working environment when you have to do heavy work (video editing, 3d graphics, etc.) but because you don't always do high-performance work, buying a high-performance PC is a burden.<Br>Without this service, you would waste your money and time buying a new computer or finding a high-performance PC.<br><a>#sharing_performance #grid_computing #first_use_discount</a>`)
 
         break;
     case '4':
         $('#picture').attr('src', 'assets/img/4.png');
-        $('#caption').html(`<b>UpSpec_official</b>&nbsp;Now say hello to UpSpec, a whole new form of shared economy platform.<br>You can use it at a 50% discount when you use it for the first time.<br><a>#sharing_performance #grid_computing #free_at_first</a>`)
+        $('#caption').html(`<b>UpSpec_official</b>&nbsp;Now say hello to UpSpec, a whole new form of shared economy platform.<br>You can use it at a 50% discount when you use it for the first time.<br><a>#sharing_performance #grid_computing #first_use_discount</a>`)
 
         break;
     default:
