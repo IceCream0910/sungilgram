@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="top-bar">
+            <button class="top-bar__back-btn"><i class="material-icons">arrow_back_ios</i></button>
+            <div class="top-bar__title">
+                <h1 class="top-bar__title__text">UpSpec_official</h1>
+                <img class='top-bar__title__verified-icon'
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/kisspng-social-media-instagram-verified-badge-symbol-compu-5b1eedb5aba638.1612204615287535897031.jpg"
+                    alt="verified-icon">
+            </div>
+            <button class="top-bar__menu-btn"><i class="material-icons">more_horiz</i></button>
+        </section>
+        <section class="stats">
+            <div class="stats__img-holder" style="background-image: url('assets/img/profile.png');">
+            </div>
+            <div class="stats__data">
+                <div class="stats__data__point">
+                    <div class="stats__data__point__value">4</div>
+                    <div class="stats__data__point__description">Posts</div>
+                </div>
+                <div class="stats__data__point">
+                    <div class="stats__data__point__value">317 M</div>
+                    <div class="stats__data__point__description">Followers</div>
+                </div>
+                <div class="stats__data__point">
+                    <div class="stats__data__point__value">225</div>
+                    <div class="stats__data__point__description">Following</div>
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            <h2 class="decription__title">UpSpec.</h2>
+            <p>
+                Upgrade and share your computer performance.<br>
+                <span style="color:rgb(175, 175, 175);">Service Company</span>
+            </p>
+            <a style="color: #7893ff;">#sharing_performance #grid_computing</a>
+        </section>
+        <section class="actions">
+            <button style="cursor:pointer;" class="actions__btn actions__btn--active"
+                onclick="toast('마음만 받을게요');">Follow</button>
+            <button style="cursor:pointer;" class="actions__btn" onclick="toast('말로 하세요');">Message</button>
+            <button class="actions__btn actions__btn--icon"><i class="material-icons">keyboard_arrow_down</i></button>
+        </section>
+
+        <section class="tabs">
+            <button class="tabs__btn tabs__btn--active">
+                <img class='tabs__btn__icon' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/grid-icon.png"
+                    alt="grid icon">
+            </button>
+            <button class="tabs__btn">
+                <img class='tabs__btn__icon' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/igtv-icon.png"
+                    alt="igtv icon">
+            </button>
+            <button class="tabs__btn">
+                <img class='tabs__btn__icon' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/smile-icon.png"
+                    alt="smile icon">
+            </button>
+            <button class="tabs__btn">
+                <img class='tabs__btn__icon' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/tagged-icon.png"
+                    alt="tagged icon">
+            </button>
+        </section>
+        <section class="grid">
+            <a href="post.html?id=1" class="grid__photo" style="background-image: url('assets/img/1.png');"></a>
+            <a href="post.html?id=2" class="grid__photo" style="background-image: url('assets/img/2.png');"></a>
+            <a href="post.html?id=3" class="grid__photo" style="background-image: url('assets/img/3.png');"></a>
+            <a href="post.html?id=4" class="grid__photo" style="background-image: url('assets/img/4.png');"></a>
+
+        </section>
+        <section class="bottom-bar">
+            <button class="bottom-bar__btn">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/home-icon.png"
+                    class="bottom-bar__btn__icon" alt="home icon">
+            </button>
+            <button class="bottom-bar__btn bottom-bar__btn--active">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/search-icon.png"
+                    class="bottom-bar__btn__icon" alt="search icon">
+            </button>
+            <button class="bottom-bar__btn">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/add-icon.png"
+                    class="bottom-bar__btn__icon" alt="add icon">
+            </button>
+            <button class="bottom-bar__btn">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2053557/heart-icon.png"
+                    class="bottom-bar__btn__icon" alt="heart icon">
+            </button>
+            <button class="bottom-bar__btn">
+
+                <img src="assets/img/profile.png" class="bottom-bar__btn__icon" alt="profile picture"
+                    style="border-radius:50%;">
+            </button>
+        </section>
+    </div>
+
+</body>
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</html>
